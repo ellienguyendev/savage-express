@@ -1,0 +1,61 @@
+body{
+  margin: 7% 10%;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+img, .main {
+  float: left;
+}
+
+img {
+  width: 40%;
+  margin-right: 2%;
+}
+
+.main {
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+form {
+  width:100%;
+}
+
+button, input{
+  float:left;
+  background-color: inherit;
+  margin-right: 1%;
+  border: 2px solid #000;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+input {
+  width: 35%;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+button:focus, input:focus, select:focus {
+    outline: 0px solid #000;
+}
+
+.hide {
+  display: none;
+}
